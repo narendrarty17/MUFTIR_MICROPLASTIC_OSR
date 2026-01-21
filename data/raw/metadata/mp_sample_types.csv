@@ -1,0 +1,119 @@
+sample_name,ptype,filter_type,details
+EVA_clean_1-1,Ethylene-vinyl acetate,clean,"EVA, 18% run1"
+PET-PBT_clean_1,Polyethylene/butylene terephthalate,clean,PET Bottle
+PE_clean_1-1,Polyethylene,clean,HDPE run1
+PP_clean_1,Polypropylene,clean,Corrogated black tubing
+PU_clean_1,Polyurethane,clean,HEB Buddy Foam
+Nylon_clean_1,Nylon,clean,Cast Nylon
+Nylon_clean_2,Nylon,clean,Polyamide Resin
+PE_clean_2-1,Polyethylene,clean,PE foam run1
+SA-ABS_clean_1,Acrylonitrile Styrene Polymers,clean,"Styrene/Acrylonitrile Copolymer 32%, #87"
+SA-ABS_clean_2,Acrylonitrile Styrene Polymers,clean,"Styrene/Acrylonitrile Copolymer 22%, #86"
+PU_clean_2,Polyurethane,clean,TPU Filament
+Nylon_clean_3-1,Nylon,clean,Nylon 6/6 run1
+PP_clean_2,Polypropylene,clean,"Pipet tips, PP"
+PE_clean_3,Polyethylene,clean,"Lemon juice bottle, LDPE"
+PMMA_clean_1,Polymethyl methacrylate,clean,"Acrylic, Cast"
+PE_clean_4,Polyethylene,clean,"H2O2 bottle, HDPE"
+PP_clean_3,Polypropylene,clean,"Starbucks cup, PP"
+PET-PBT_clean_2,Polyethylene/butylene terephthalate,clean,PETG
+SA-ABS_clean_3,Acrylonitrile Styrene Polymers,clean,ABS
+PMMA_clean_2,Polymethyl methacrylate,clean,"Acrylic, Extruded"
+PS_clean_1,Polystyrene,clean,Rexolite
+PC_clean_1,Polycarbonate,clean,Polycarbonate
+Nylon_clean_4,Nylon,clean,Nylon 12
+PE_clean_2-2,Polyethylene,clean,PE foam run2
+Nylon_clean_5,Nylon,clean,Nylon 6
+PET-PBT_clean_3,Polyethylene/butylene terephthalate,clean,Polyester
+PU_clean_3,Polyurethane,clean,Polyurethane foam
+Nylon_clean_3-2,Nylon,clean,Nylon 6/6 run2
+PVC_clean_1,Polyvinyl chloride,clean,CPVC
+PE_clean_5,Polyethylene,clean,PE
+PVC_clean_2-1,Polyvinyl chloride,clean,PVC run1
+Nylon_clean_6,Nylon,clean,Nylon 6/12
+PE_clean_6,Polyethylene,clean,LDPE
+PP_clean_4,Polypropylene,clean,Polypropylene
+PS_clean_2,Polystyrene,clean,Polystyrene #69
+PS_clean_3,Polystyrene,clean,Polystyrene
+PVC_clean_2-2,Polyvinyl chloride,clean,PVC run2
+EVA_clean_2-1,Ethylene-vinyl acetate,clean,"EVA, 14% run1"
+PS_clean_4-1,Polystyrene,clean,Filter archive holder run1
+EVA_clean_3,Ethylene-vinyl acetate,clean,"EVA, 28%"
+PC_clean_2,Polycarbonate,clean,Polycarbonate #47
+PE_clean_1-2,Polyethylene,clean,HDPE run2
+PET-PBT_clean_4,Polyethylene/butylene terephthalate,clean,PBT
+EVA_clean_1-2,Ethylene-vinyl acetate,clean,"EVA, 18% run2"
+PE_clean_7,Polyethylene,clean,UHMW Polyethylene
+EVA_clean_2-2,Ethylene-vinyl acetate,clean,"EVA, 14% run2"
+EVA_clean_4,Ethylene-vinyl acetate,clean,EVA 33%
+PC_clean_3,Polycarbonate,clean,Polycarbonate #46
+EVA_clean_5,Ethylene-vinyl acetate,clean,EVA 40%
+SA-ABS_clean_4,Acrylonitrile Styrene Polymers,clean,ASA
+PS_clean_4-2,Polystyrene,clean,Filter archive holder run2
+PP_clean_5,Polypropylene,clean,"Polypropylene, Isotactic"
+Nylon_high-bkgd_1,Nylon,high background,Nylon 6
+SA-ABS_high-bkgd_1,Acrylonitrile Styrene Polymers,high background,ABS
+PET-PBT_high-bkgd_1,Polyethylene/butylene terephthalate,high background,Polyester
+PVC_high-bkgd_1-1,Polyvinyl chloride,high background,PVC run1
+PP_high-bkgd_1,Polypropylene,high background,Polypropylene
+PE_high-bkgd_1,Polyethylene,high background,"H2O2 bottle, HDPE"
+PMMA_high-bkgd_1,Polymethyl methacrylate,high background,"Acrylic, Cast"
+Nylon_high-bkgd_2,Nylon,high background,Nylon 6/6
+PET-PBT_high-bkgd_2,Polyethylene/butylene terephthalate,high background,PETG
+EVA_high-bkgd_1,Ethylene-vinyl acetate,high background,"EVA, 14%"
+PS_high-bkgd_1,Polystyrene,high background,Polystyrene
+PVC_high-bkgd_2,Polyvinyl chloride,high background,CPVC
+Nylon_high-bkgd_3,Nylon,high background,Nylon 12
+PMMA_high-bkgd_2,Polymethyl methacrylate,high background,"Acrylic, Extruded"
+PVC_high-bkgd_1-2,Polyvinyl chloride,high background,PVC run2
+PU_high-bkgd_1,Polyurethane,high background,Polyurethane foam
+Nylon_high-bkgd_4,Nylon,high background,Nylon 11
+EVA_high-bkgd_2,Ethylene-vinyl acetate,high background,EVA 33%
+PE_high-bkgd_2,Polyethylene,high background,HDPE
+PC_high-bkgd_1,Polycarbonate,high background,Polycarbonate #47
+PS_high-bkgd_2,Polystyrene,high background,Polystyrene #69
+PC_high-bkgd_2,Polycarbonate,high background,Polycarbonate
+PE_high-bkgd_3,Polyethylene,high background,UHMW Polyethylene
+Nylon_UV_deg,Nylon,clean,Nylon UV Degraded
+PET_UV_deg,Polyethylene/butylene terephthalate,clean,PET UV Degraded
+PP_UV_deg,Polypropylene,clean,PP UV Degraded
+PS_UV_deg,Polystyrene,clean,PS UV Degraded
+Nylon_therm_deg,Nylon,clean,Nylon Thermal Degraded
+PE_fibers,Polyethylene,clean,PE Mesh Fibers
+PE_therm_deg,Polyethylene,clean,PE Thermal Degraded
+PE_UV_deg,Polyethylene,clean,PE UV Degraded
+PET_fibers1,Polyethylene/butylene terephthalate,clean,Polyester Fibers from Pants
+PET_fibers2,Polyethylene/butylene terephthalate,clean,Polyester Fibers from Shorts
+PET_therm_deg,Polyethylene/butylene terephthalate,clean,PET Thermal Degraded
+PP_therm_deg,Polypropylene,clean,PP Thermal Degraded
+PS_therm_deg,Polystyrene,clean,PS Thermal Degraded
+Phenoxy_clean_1,Phenoxy resin,clean,Phenoxy Resin
+PLA_clean_1,Polylactic acid,clean,Blue PLA Filament
+PLA_clean_2,Polylactic acid,clean,Translucent Yellow PLA Filament
+PLA_clean_3,Polylactic acid,clean,White PLA Filament
+PLA_clean_4,Polylactic acid,clean,Titanium PLA Filament
+PLA_clean_5,Polylactic acid,clean,Red PLA Filament
+PLA_clean_6,Polylactic acid,clean,Orange PLA Filament
+PPS_clean_1,Polyphenylene sulfide,clean,Poly(Phenylene Sulfide) #66
+Silicone_clean_1,Silicone,clean,Silicone foam
+POM_clean_1,Polyoxymethylene,clean,Delrin Acetal
+PPS_clean_2,Polyphenylene sulfide,clean,PPS 
+CA_clean_1,Cellulose acetate,clean,Cellulose Acetate
+PLA_clean_7,Polylactic acid,clean,Luminous PLA- Orange
+BSF_fragments,Non-Plastic,clean,BSF insect fragments
+Cotton,Non-Plastic,clean,Cotton fibers from collection bag
+Sand_large,Non-Plastic,clean,Large sand granules
+Sand_small,Non-Plastic,clean,Small sand granules
+PE_fibers,Polyethylene,clean,PE fibers fruit mesh bag
+PET_fibers_1,Polyethylene/butylene terephthalate,clean,Polyester fibers from pants
+PET_fibers_2,Polyethylene/butylene terephthalate,clean,Polyester fibers from shorts
+Nylon_therm_deg,Nylon,clean,Nylon thermally degraded
+PE_therm_deg,Polyethylene,clean,PE thermally degraded
+PE_UV_deg,Polyethylene,clean,PE UV degraded
+PET_therm_deg,Polyethylene/butylene terephthalate,clean,PET thermally degraded
+PP_therm_deg,Polypropylene,clean,PP thermally degraded
+PS_therm_deg,Polystyrene,clean,PS thermally degraded
+Nylon_UV_deg,Nylon,clean,Nylon UV degraded
+PET_UV_deg,Polyethylene/butylene terephthalate,clean,PET UV degraded
+PP_UV_deg,Polypropylene,clean,PP UV degraded
+PS_UV_deg,Polystyrene,clean,PS UV degraded

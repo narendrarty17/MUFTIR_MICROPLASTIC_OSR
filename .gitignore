@@ -1,0 +1,40 @@
+# --- Machine Learning / Large Data ---
+# Ignore bulky model weights and data arrays
+*.hdf5
+*.h5
+*.npz
+*.npy
+*.pb
+*.tflite
+*.onnx
+*.weights
+*.ckpt
+*.pth
+*.pt
+
+# --- Python & Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & Visualization ---
+logs/
+*.log
+.ipynb_checkpoints/
+
+# --- Notes on Excel Files ---
+# By default, files are NOT ignored unless specified. 
+# Therefore, .xlsx, .xls, and .csv files will be tracked/kept.
+# If you ever decide to ignore all data but keep specific samples, 
+# you would use: !sample_data.xlsx
