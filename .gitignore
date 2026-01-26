@@ -33,6 +33,12 @@ logs/
 *.log
 .ipynb_checkpoints/
 
+# Ignore installer scripts
+*.sh
+
+# Ignore the large model checkpoints we saw earlier
+checkpoints/*.pt
+
 # --- Notes on Excel Files ---
 # By default, files are NOT ignored unless specified. 
 # Therefore, .xlsx, .xls, and .csv files will be tracked/kept.

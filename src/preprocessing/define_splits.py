@@ -25,7 +25,7 @@ OPEN_SET = {
     "PLA", "PPS", "POM", "CA", "Phenoxy", "Silicone"
 }
 
-# PET (non PBT) is used only for stress testing in the paper
+# PET (non-PBT) is stress-test only
 PET_STRESS = {"PET"}
 
 # Non-plastic controls
@@ -33,9 +33,8 @@ NON_PLASTIC = {
     "Sand", "Cotton", "BSF"
 }
 
-# Split ratios (sample-wise)
-TRAIN_FRAC = 0.70
-VAL_FRAC = 0.15
+# Split ratio (sample-wise)
+TRAIN_FRAC = 0.80
 # Test = remainder
 
 
@@ -89,16 +88,15 @@ def main():
                 groups["stress_tests"].append(sample_id)
 
         elif polymer in PET_STRESS:
-            # PET (not PET-PBT) is stress-test only
             groups["stress_tests"].append(sample_id)
 
         else:
             raise ValueError(f"Unknown or unclassified polymer: {polymer}")
 
     # -------------------------------------------------------------
-    # Second pass: split clean Big-11 samples sample-wise
+    # Second pass: split clean Big-11 samples (train / test only)
     # -------------------------------------------------------------
-    train, val, test = [], [], []
+    train, test = [], []
 
     by_polymer = defaultdict(list)
     for sid in groups["clean_big11"]:
@@ -110,18 +108,15 @@ def main():
         n = len(samples)
 
         n_train = int(TRAIN_FRAC * n)
-        n_val = int(VAL_FRAC * n)
 
         train.extend(samples[:n_train])
-        val.extend(samples[n_train:n_train + n_val])
-        test.extend(samples[n_train + n_val:])
+        test.extend(samples[n_train:])
 
     # -------------------------------------------------------------
     # Final split definition
     # -------------------------------------------------------------
     split_definition = {
         "train": sorted(train),
-        "validation": sorted(val),
         "test_closed_set": sorted(test),
         "open_set": sorted(groups["open_set"]),
         "stress_tests": sorted(groups["stress_tests"]),
