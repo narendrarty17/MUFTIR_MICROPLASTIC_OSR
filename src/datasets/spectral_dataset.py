@@ -87,9 +87,11 @@ class SpectralDataset(Dataset):
 
     def __getitem__(self, idx):
         x = torch.from_numpy(self.spectra[idx])
+        sid = self.sample_index[idx]  # <-- STRING like "PET_fibers_2"
 
         if self.return_labels:
             y = self.labels[idx]
-            return x, y
+            return x, y, sid
         else:
-            return x
+            return x, sid
+
