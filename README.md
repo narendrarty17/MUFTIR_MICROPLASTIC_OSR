@@ -62,7 +62,7 @@ The goal is to:
 
 ## Step-by-Step Pipeline Documentation
 
-### Step 0 — Dataset Audit & Mapping
+### Step 0 - Dataset Audit & Mapping
 1. Goal: Understand dataset composition and experimental roles.
 2. Scripts: src/audit/inspect_hdf5_structure.py
 3. Key outcomes
@@ -76,19 +76,19 @@ The goal is to:
         xx. Non-plastics
 
 
-### Step 1 — Project Structure Creation
+### Step 1 - Project Structure Creation
 1. Goal: Create a clean, reproducible directory layout.
 2. Scripts: Manual + OS-based directory creation
 3. Outcome: Stable folder structure used consistently throughout the project
 
-### Step 2 — HDF5 Inspection
+### Step 2 - HDF5 Inspection
 1. Goal: Confirm spectral shape, datatype, and consistency across files.
 2. Findings
     a. Each dataset inside HDF5 = one spectrum
     b. Shape (882,), dtype float64
     c. Wavenumbers shared across spectra
 
-### Step 3 — Spectra Extraction
+### Step 3 - Spectra Extraction
 1. Goal: Convert raw HDF5 files into structured .npz files.
 2. Script: src/preprocessing/extract_spectra.py
 3. Output: data/standardized/spectra_npz/*.npz
@@ -96,7 +96,7 @@ The goal is to:
     a. all spectra from that sample
     b. polymer and condition metadata
 
-### Step 4 — Normalization and Zero Padding 
+### Step 4 - Normalization and Zero Padding 
 1. Goal: Prepare spectra for CNN input.
 2. Operations: 
     a. Min–max normalization to [0, 1]
@@ -104,7 +104,7 @@ The goal is to:
 3. Script: src/preprocessing/normalize_and_pad.py
 3. Output: data/standardized/spectra_npz_norm/*.npz
 
-### Step 5 — Sample-wise Dataset Splitting 
+### Step 5 - Sample-wise Dataset Splitting 
 1. Goal: Prevent data leakage by splitting by sample, not by spectrum.
 2. Script: src/preprocessing/define_splits.py 
 3. Design
@@ -119,7 +119,7 @@ The goal is to:
         z. non_plastic
 4. Output: data/splits/split_definition.json
 
-### Step 6 — Embedding Model
+### Step 6 - Embedding Model
 
 #### Step 6.1 - Dataset & DataLoader
 1. Script: src/datasets/spectral_dataset.py
@@ -210,4 +210,4 @@ This justifies moving to Step 10: improving similarity learning.
 4. Final performance claims
 
 # Next Step
-### Step 10 — Improving embeddings (beyond contrastive loss)
+### Step 10 - Improving embeddings (beyond contrastive loss)
